@@ -1,25 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
+
 form {
     margin-top: 15px;
 }
 
-
 /* Register 1 page */
-
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
 
 html {
     scroll-behavior: smooth !important;
 }
 
 body {
-    /* background-color: rgb(242, 252, 255) !important; */
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     font-family: "Arimo", sans-serif !important;
-    /* width: 96%;
-    margin-left: 2%; */
 }
 
 .big-circle {
@@ -157,10 +153,6 @@ form {
 }
 
 @media screen and (max-width: 600px) {
-    body {
-        overflow-x: hidden;
-    }
-
     .img-container {
         display: none;
     }
@@ -175,24 +167,7 @@ form {
     }
 }
 
-
 /* Register 2 page */
-
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
-
-html {
-    scroll-behavior: smooth !important;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    font-family: "Arimo", sans-serif;
-    /* width: 96%;
-    margin-left: 2%; */
-}
 
 .text {
     text-align: center;
@@ -440,22 +415,18 @@ ul.tag-list li input[type="checkbox"]:focus+label {
     padding: 5px 5px;
 }
 
+.social:focus,
+.social:active:focus,
+.social.active:focus,
+.social.focus,
+.social:active.focus,
+.social.active.focus,
 .social-input,
 .social-input:active:focus,
 .social-input.active:focus,
 .social-input.focus,
 .social-input:active.focus,
 .social-input.active.focus {
-    outline: none;
-    outline: 0;
-}
-
-.social:focus,
-.social:active:focus,
-.social.active:focus,
-.social.focus,
-.social:active.focus,
-.social.active.focus {
     outline: none;
     outline: 0;
 }
@@ -629,22 +600,12 @@ ul.tag-list li input[type="checkbox"]:focus+label {
     }
 }
 
-
-
-
 /* Thankyou page */
-
-
-@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
 
 .thankyou {
     background: rgb(235, 235, 235) !important;
-    /* overflow-x: hidden;
-  overflow-y: hidden; */
     font-family: "Arimo", sans-serif !important;
     color: #151515;
-    /* width: 96%;
-  margin-left: 2%; */
 }
 
 .TYcircle-1 {
@@ -665,7 +626,6 @@ ul.tag-list li input[type="checkbox"]:focus+label {
     z-index: 0;
     margin: 0;
     position: fixed;
-    /* float: right !important; */
     margin-left: 350px !important;
 }
 
@@ -686,7 +646,6 @@ ul.tag-list li input[type="checkbox"]:focus+label {
     background-color: white;
     margin: auto !important;
     margin-top: 70px !important;
-    /* margin-left: 10%; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: 999;
     text-align: center;
@@ -701,19 +660,13 @@ ul.tag-list li input[type="checkbox"]:focus+label {
 }
 
 .TYcard-content h3 {
-    /* margin-top: 20px; */
     text-align: center;
-    /* letter-spacing: 3px; */
-    /* border: 1px solid red !important; */
 }
 
 .TYcard-content p {
     font-size: 18px;
     max-width: 600px;
     margin: 0 auto !important;
-    /* margin-top: 40px; */
-    /* letter-spacing: 2px; */
-    /* font-weight: bold; */
 }
 
 .TYcard-content svg {
@@ -750,8 +703,6 @@ ul.tag-list li input[type="checkbox"]:focus+label {
     background-color: #34a8eb;
     border-radius: 50%;
     z-index: -1;
-    /* margin-top: 30px;
-  margin-left: 60px; */
     position: fixed;
     margin-left: 1360px;
     margin-top: -60px;
@@ -805,22 +756,7 @@ ul.tag-list li input[type="checkbox"]:focus+label {
     }
 }
 
-
-
 /* login Page */
-
-@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
-
-body {
-    background: #fff;
-    overflow-x: hidden !important;
-    font-family: "Arimo", sans-serif !important;
-    color: #151515;
-    margin: 0;
-    padding: 0;
-    /* width: 96%;
-    margin-left: 2%; */
-}
 
 .LIillus1 {
     display: none;
@@ -851,26 +787,9 @@ body {
     }
 }
 
-
 /* Signup Page */
 
-
-@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
-
-body {
-    background: #fff;
-    overflow-x: hidden;
-    /* overflow-y: hidden; */
-    font-family: "Arimo", sans-serif !important;
-    color: #151515;
-    margin: 0;
-    padding: 0;
-    /* width: 96%;
-    padding-left: 2%; */
-}
-
 .SUillus3 {
-    /* position: fixed; */
     margin-top: -80px;
     margin-left: 30px;
 }
@@ -888,7 +807,6 @@ body {
 }
 
 .SUmid {
-    /* border: 1px solid red; */
     margin-top: 50px;
     z-index: 999;
 }
@@ -896,7 +814,6 @@ body {
 .SUmid h1 {
     text-align: center;
     margin-top: 80px;
-    /* font-family: "Roboto"; */
 }
 
 .SUmid p {
@@ -905,7 +822,6 @@ body {
 
 .SUmid input {
     margin-top: 10px !important;
-    /* margin-bottom: 5px !important; */
 }
 
 .SUmid label {
@@ -923,7 +839,6 @@ body {
 .SUmid form button {
     background: linear-gradient(to right, #0066cc 0%, #66ffff 100%);
     border: none !important;
-    /* padding: 10px 0px !important; */
     color: #151515 !important;
     width: 180px !important;
     border-radius: 25px !important;
@@ -986,8 +901,6 @@ body {
         bottom: 0;
     }
 }
-
-
 
 /* mobile flag */
 
