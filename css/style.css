@@ -1,3 +1,8 @@
+form {
+    margin-top: 15px;
+}
+
+
 /* Register 1 page */
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
@@ -13,8 +18,8 @@ body {
     padding: 0;
     overflow-x: hidden;
     font-family: "Arimo", sans-serif !important;
-    width: 96%;
-    margin-left: 2%;
+    /* width: 96%;
+    margin-left: 2%; */
 }
 
 .big-circle {
@@ -203,8 +208,8 @@ body {
     padding: 0;
     overflow-x: hidden;
     font-family: "Arimo", sans-serif;
-    width: 96%;
-    margin-left: 2%;
+    /* width: 96%;
+    margin-left: 2%; */
 }
 
 .text {
@@ -672,7 +677,7 @@ ul.tag-list li input[type="checkbox"]:focus+label {
 
 @import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
 
-body {
+.thankyou {
     background: rgb(235, 235, 235) !important;
     /* overflow-x: hidden;
   overflow-y: hidden; */
@@ -682,7 +687,7 @@ body {
   margin-left: 2%; */
 }
 
-.circle-1 {
+.TYcircle-1 {
     height: 300px;
     width: 300px;
     background-color: #34a8eb;
@@ -692,7 +697,7 @@ body {
     margin-top: -45px;
 }
 
-.circle-2 {
+.TYcircle-2 {
     height: 40px;
     width: 40px;
     background-color: #34a8eb;
@@ -704,7 +709,7 @@ body {
     margin-left: 350px !important;
 }
 
-.circle-3 {
+.TYcircle-3 {
     height: 100px;
     width: 100px;
     background-color: rgb(74, 255, 225);
@@ -714,7 +719,7 @@ body {
     margin-top: -275px;
 }
 
-.card1 {
+.TYcard1 {
     padding: 30px;
     padding-top: 0;
     width: 80%;
@@ -728,21 +733,21 @@ body {
     position: relative;
 }
 
-.line {
+.TYline {
     border: 2px solid rgb(21, 155, 245);
     width: 10%;
     margin-left: 45%;
     border-radius: 10px !important;
 }
 
-.card-content h3 {
+.TYcard-content h3 {
     /* margin-top: 20px; */
     text-align: center;
     /* letter-spacing: 3px; */
     /* border: 1px solid red !important; */
 }
 
-.card-content p {
+.TYcard-content p {
     font-size: 18px;
     max-width: 600px;
     margin: 0 auto !important;
@@ -751,11 +756,11 @@ body {
     /* font-weight: bold; */
 }
 
-.card-content svg {
+.TYcard-content svg {
     height: 150px;
 }
 
-.circle-4 {
+.TYcircle-4 {
     height: 55px;
     width: 55px;
     background-color: #34a8eb;
@@ -765,7 +770,7 @@ body {
     margin-left: 60px;
 }
 
-.square {
+.TYsquare {
     height: 190px;
     width: 160px;
     background: rgb(230, 251, 255);
@@ -779,7 +784,7 @@ body {
     opacity: 0.9;
 }
 
-.circle-5 {
+.TYcircle-5 {
     height: 200px;
     width: 200px;
     background-color: #34a8eb;
@@ -797,44 +802,44 @@ body {
         background-color: white !important;
     }
 
-    p {
+    .TYcard-content p {
         font-size: 18px !important;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .card1 {
+    .TYcard1 {
         margin-top: -50px !important;
     }
 
-    p {
+    .TYcard-content p {
         font-size: 16px !important;
     }
 
-    .circle-2 {
+    .TYcircle-2 {
         margin: 0;
         margin-top: -260px;
         margin-right: -10px;
     }
 
-    .circle-4 {
+    .TYcircle-4 {
         margin: 0;
         margin-top: -20px;
         margin-left: 10px;
     }
 
-    .square {
+    .TYsquare {
         height: 80px;
         width: 70px;
         margin-right: 20px;
         margin-top: -80px;
     }
 
-    .circle-5 {
+    .TYcircle-5 {
         display: none;
     }
 
-    .card-content svg {
+    .TYcard-content svg {
         /* height: 150px; */
         width: 200px;
     }
@@ -853,8 +858,8 @@ body {
     color: #151515;
     margin: 0;
     padding: 0;
-    width: 96%;
-    margin-left: 2%;
+    /* width: 96%;
+    margin-left: 2%; */
 }
 
 .illus1 {
@@ -886,9 +891,6 @@ h1 {
     text-align: center;
 }
 
-form {
-    margin-top: 15px;
-}
 
 input {
     margin-top: 10px !important;
@@ -984,17 +986,17 @@ body {
     color: #151515;
     margin: 0;
     padding: 0;
-    width: 96%;
-    padding-left: 2%;
+    /* width: 96%;
+    padding-left: 2%; */
 }
 
-.illus3 {
+.SUillus3 {
     /* position: fixed; */
     margin-top: -80px;
     margin-left: 30px;
 }
 
-.illus {
+.SUillus {
     height: 400px;
     width: 400px;
     margin-top: 420px;
@@ -1002,48 +1004,44 @@ body {
     position: fixed;
 }
 
-.illus4 {
+.SUillus4 {
     display: none;
 }
 
-.mid {
+.SUmid {
     /* border: 1px solid red; */
     margin-top: 50px;
     z-index: 999;
 }
 
-.mid h1 {
+.SUmid h1 {
     text-align: center;
     margin-top: 80px;
     /* font-family: "Roboto"; */
 }
 
-.mid p {
+.SUmid p {
     font-family: "Roboto";
 }
 
-form {
-    margin-top: 15px;
-}
-
-input {
+.SUmid input {
     margin-top: 10px !important;
     /* margin-bottom: 5px !important; */
 }
 
-label {
+.SUmid label {
     padding: 5px 3px;
 }
 
-.tele {
+.SUmid .tele {
     margin-top: 10px !important;
 }
 
-.form-row {
+.SUmid .form-row {
     margin: auto !important;
 }
 
-form button {
+.SUmid form button {
     background: linear-gradient(to right, #0066cc 0%, #66ffff 100%);
     border: none !important;
     /* padding: 10px 0px !important; */
@@ -1053,22 +1051,22 @@ form button {
     margin: auto;
 }
 
-.form-row p {
+.SUmid .form-row p {
     padding-top: 20px !important;
     margin: auto !important;
 }
 
-.button:focus,
-.button:active:focus,
-.button.active:focus,
-.button.focus,
-.button:active.focus,
-.button.active.focus {
+.SUmid .button:focus,
+.SUmid .button:active:focus,
+.SUmid .button.active:focus,
+.SUmid .button.focus,
+.SUmid .button:active.focus,
+.SUmid .button.active.focus {
     outline: none !important;
     outline: 0 !important;
 }
 
-.illus2 {
+.SUillus2 {
     width: 1400px;
     /* height: 500px; */
     margin-top: -350px;
@@ -1077,29 +1075,29 @@ form button {
 }
 
 @media screen and (max-width: 992px) {
-    h1 {
+    .SUmid h1 {
         font-size: 24px !important;
     }
 
-    p {
+    .SUmid p {
         font-size: 16px !important;
     }
 
-    .illus2 {
+    .SUillus2 {
         display: none;
     }
 
-    .illus {
+    .SUillus {
         display: none;
     }
 }
 
 @media screen and (max-width: 568px) {
-    .mid {
+    .SUmid {
         margin-top: -160px;
     }
 
-    .illus4 {
+    .SUillus4 {
         display: block;
         height: auto;
         width: 106%;
