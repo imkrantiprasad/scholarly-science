@@ -897,7 +897,7 @@ ul.tag-list li input[type="checkbox"]:focus+label {
         width: 100%;
         margin: 0;
         padding: 0;
-        position: fixed;
+        /* position: fixed; */
         bottom: 0;
     }
 }
