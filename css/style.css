@@ -16,6 +16,8 @@ body {
     padding: 0;
     overflow-x: hidden;
     font-family: "Arimo", sans-serif !important;
+    width: 96%;
+    padding-left: 2%;
 }
 
 .big-circle {
