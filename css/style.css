@@ -62,7 +62,7 @@ body {
     margin-top: 100px;
 }
 
-.img {
+.Rillus1 {
     height: 400px;
     width: 450px;
     overflow: hidden;
@@ -108,21 +108,7 @@ form {
     background: linear-gradient(to right, #66ffff 0%, #0066cc 100%);
 }
 
-.button:focus,
-.button:active:focus,
-.button.active:focus,
-.button.focus,
-.button:active.focus,
-.button.active.focus {
-    outline: none;
-    outline: 0;
-}
-
 @media screen and (max-width: 992px) {
-    body {
-        overflow-x: hidden;
-    }
-
     #circle-1 {
         margin-left: 600px !important;
     }
@@ -133,10 +119,6 @@ form {
 }
 
 @media only screen and (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-
     .form-container {
         margin-top: -200px !important;
     }
@@ -236,6 +218,7 @@ body {
 .illus-2 img {
     height: 100%;
     position: fixed;
+    margin-left: -50px;
 }
 
 .job-section {
@@ -457,19 +440,6 @@ ul.tag-list li input[type="checkbox"]:focus+label {
     padding: 5px 5px;
 }
 
-.button {
-    background: linear-gradient(to right, #0066cc 0%, #66ffff 100%);
-    border: none;
-    padding: 10px 0px;
-    width: 140px;
-    border-radius: 25px;
-    margin: auto !important;
-}
-
-.button:hover {
-    background: linear-gradient(to right, #66ffff 0%, #0066cc 100%);
-}
-
 .social-input,
 .social-input:active:focus,
 .social-input.active:focus,
@@ -486,16 +456,6 @@ ul.tag-list li input[type="checkbox"]:focus+label {
 .social.focus,
 .social:active.focus,
 .social.active.focus {
-    outline: none;
-    outline: 0;
-}
-
-.button:focus,
-.button:active:focus,
-.button.active:focus,
-.button.focus,
-.button:active.focus,
-.button.active.focus {
     outline: none;
     outline: 0;
 }
@@ -620,7 +580,7 @@ ul.tag-list li input[type="checkbox"]:focus+label {
 }
 
 @media only screen and (max-width: 1024px) {
-    .illus-img {
+    .Rillus2 {
         display: none !important;
     }
 }
@@ -975,12 +935,12 @@ body {
     margin: auto !important;
 }
 
-.SUmid .button:focus,
-.SUmid .button:active:focus,
-.SUmid .button.active:focus,
-.SUmid .button.focus,
-.SUmid .button:active.focus,
-.SUmid .button.active.focus {
+.button:focus,
+.button:active:focus,
+.button.active:focus,
+.button.focus,
+.button:active.focus,
+.button.active.focus {
     outline: none !important;
     outline: 0 !important;
 }
